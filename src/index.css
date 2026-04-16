@@ -1,0 +1,40 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --sans: 'Instrument Sans', system-ui, sans-serif;
+  --serif: 'Instrument Serif', Georgia, serif;
+
+  --bg:        #0c0c0b;
+  --bg-card:   #131312;
+  --bg-raised: #181817;
+  --bg-input:  #161615;
+
+  --border:    rgba(255,255,255,0.07);
+  --border-md: rgba(255,255,255,0.12);
+  --border-hi: rgba(255,255,255,0.18);
+
+  --text-1: #edeae4;
+  --text-2: #7d7a76;
+  --text-3: #3f3e3b;
+
+  --amber: #c8914a;
+  --amber-bg: rgba(200,145,74,0.10);
+  --red:   #c95f5f;
+  --red-bg: rgba(201,95,95,0.10);
+  --blue:  #5a90c4;
+  --blue-bg: rgba(90,144,196,0.10);
+  --green: #5aaa7f;
+}
+
+html, body, #root { height: 100%; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text-1);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+textarea, input, button, select { font-family: var(--sans); }
+::selection { background: rgba(200,145,74,0.2); }
