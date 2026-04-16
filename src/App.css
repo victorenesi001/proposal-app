@@ -10,10 +10,7 @@
 
 /* ── Layout ── */
 .shell {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  max-width: 700px;
+  max-width: 700px
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -52,7 +49,7 @@ nav {
 }
 
 /* ── Main ── */
-main { padding: 3rem 0 5rem; }
+main { padding: 3rem 0 7rem; }
 
 /* ── Hero ── */
 .hero { margin-bottom: 2.75rem; }
