@@ -214,7 +214,7 @@ export default function App() {
       const res  = await fetch('/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ jobDesc, service, systemPrompt: SYSTEM_PROMPT }),
+        body: JSON.stringify({ jobDesc, service }),
       })
       const data = await res.json()
       if (data.text) {
